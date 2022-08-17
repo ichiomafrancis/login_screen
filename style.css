@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  /* align-items: center; */
+  margin: 20%;
+}
+
+.trolley {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.main-container {
+  background-color: #264eca;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.form-container {
+}
+
+input[type="text"] {
+  width: 100%;
+  background-color: inherit;
+  padding-left: 50px;
+  background-image: url(images/user.svg);
+  background-repeat: no-repeat;
+}
+
+input[type="password"] {
+  width: 100%;
+  background-color: inherit;
+  /* padding: 10px; */
+  padding-left: 50px;
+  background-image: url(images/lock.svg);
+  background-repeat: no-repeat;
+}
+
+input[type="button"] {
+}
+
+#username,
+#password {
+  color: #fff;
+}
+
+.login {
+}
